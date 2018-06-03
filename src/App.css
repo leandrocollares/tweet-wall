@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('alegreya-sans-v8-latin-regular.woff2') format('woff2'), 
+       url('alegreya-sans-v8-latin-regular.woff') format('woff'), 
+       url('alegreya-sans-v8-latin-regular.ttf') format('truetype');       
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #333333;
+  height: 140px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.tweet-wall {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tweet-wall-item {
+  width: 250px;
+  margin: 15px;
+}
